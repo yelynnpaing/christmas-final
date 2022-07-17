@@ -1,0 +1,86 @@
+$navbar-nav-link-padding-x:2.1rem !important;
+$font-family-sans-serif:'Montserrat','sans-serif';
+$primary:#dc3845;
+$success:#8ca622;
+$border-radius:25px;
+$info:rgba(225,225,225,0.8);
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+@import "node_modules/animate.css/animate.min.css";
+
+//.slide-card{
+//
+//}
+
+.favicon{
+  width: 45px;
+  height: 45px;
+}
+
+#siteNavbar:hover .favicon{
+  transform: skew(25deg);
+}
+
+.nav-link:hover{
+  border-bottom: 3px solid #8ca622;
+  transform: translateY(-10px);
+}
+.site-navbar-onscroll{
+  background-color: #f8f9fa;
+  backdrop-filter: blur(15px) contrast(180%);
+}
+body{
+  background-color: white;
+}
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+.hero-img{
+  border-bottom: 3px solid #dc3845;
+}
+#home div div .hero-img:hover{
+  transform: scale(1.2);
+}
+.slide{
+  width: 50%;
+  margin: auto;
+}
+
+#gift .gift-card:hover{
+  background: #dc3845;
+  transform : translateY(-30px);
+  transition: 0.5s;
+  color: white !important;
+  }
+.slide-card{
+  border-bottom: 3px solid #8ca622;
+  color: black !important;
+}
+.message{
+  transform:skewY(15deg);
+}
+#footer2{
+  width:75px;
+}
+div div .foot-text:hover{
+  transform: translateX(15px);
+  transition: 0.5s;
+  font-weight: bolder;
+}
+.footer-text a .a1:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+.footer-text a .a2:hover {
+  transform: translateY(10px);
+  transition: 0.5s;
+}
+
+#arrowUp{
+  display: none;
+  bottom: 50px;
+  right: 50px;
+}
